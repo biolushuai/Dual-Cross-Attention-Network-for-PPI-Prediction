@@ -43,32 +43,3 @@ PIPR: [https://github.com/muhaochen/seq_ppi](https://github.com/muhaochen/seq_pp
 Struct2Graph: [https://github.com/baranwa2/Struct2Graph](https://github.com/baranwa2/Struct2Graph).
 
 DPPI: [https://github.com/hashemifar/DPPI/](https://github.com/hashemifar/DPPI/).
-
-
-We retrained the baseline method, Struct2Graph, with its default parameters using the yeast dataset in our paper.
-
-1. The preprocessed data in yeast dataset used for Struct2Graph can be available at the [Link](https://pan.baidu.com/s/1mrJ5HQ2wMp1Wv0D3YI72Cg?pwd=1234).
-
-2. The trained model on yeast dataset can be available at the [Link](https://pan.baidu.com/s/19KpAuXthWU6RZTF5FORPhA?pwd=1234), which is used to reproduce the performance of Struct2Graph recorded in our paper.
-
-    Under the path of Struct2Graph-master/ :  `python test.py`
-
-3. If you want to retrain the Struct2Graph on the yeast dataset in our paper:
-
-    Under the path of Struct2Graph-master/ :  `python k-fold-CV.py`
-
-Cite our work
----
-if you use the conclusion, code, or data in our work, please cite:
-```
-@ARTICLE{10465250,
-  author={Ma, Wenjian and Bi, Xiangpeng and Jiang, Huasen and Zhang, Shugang and Wei, Zhiqiang},
-  journal={IEEE Journal of Biomedical and Health Informatics}, 
-  title={CollaPPI: A Collaborative Learning Framework for Predicting Protein-Protein Interactions}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-12},
-  keywords={Proteins;Collaboration;Task analysis;Feature extraction;Protein engineering;Deep learning;Vectors;protein-protein interaction;multi-task learning;graph neural network;protein representation learning},
-  doi={10.1109/JBHI.2024.3375621}}
-```
