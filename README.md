@@ -32,10 +32,17 @@ DCAPPI employs a hierarchical dual cross-attention framework:
 - 
 ## Datasets
 
-We evaluate DCAPPI on three benchmark datasets:
+We evaluate DCAPPI on four benchmark datasets:
 
-| Dataset | Task | Description |
-|---------|------|-------------|
-| Yeast | Binary PPI | Protein-protein interactions in *S. cerevisiae* |
-| Multi-species | Binary PPI | Cross-species PPI data with varying sequence identity thresholds (any/01/10/25/40) |
-| Multi-class | 7-class PPI | Fine-grained interaction type prediction (7 interaction categories) |
+| Dataset | Task | Species | Description |
+|---------|------|---------|-------------|
+| Yeast | Binary PPI | *S. cerevisiae* | Protein-protein interactions in yeast |
+| Multi-species | Binary PPI | Cross-species | PPI data with varying sequence identity thresholds (any/01/10/25/40) |
+| Multi-class | 7-class PPI | — | Fine-grained interaction type prediction (7 interaction categories) |
+| Gold Standard | Binary PPI | *H. sapiens* | Data-leakage-free benchmark from Bernett et al. (2024) [[1]](#references) |
+
+### Data Preparation
+
+The preprocessed data for Yeast, Multi-species, and Multi-class datasets (including contact maps, protein language model embeddings, GO term labels, and subcellular localization labels) can be downloaded from the following links:
+[Download Link](https://pan.baidu.com/s/1YQoNeZ8zDU_4_BiC_JGfkA?pwd=hdzd) (password: hdzd)
+
